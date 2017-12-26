@@ -32,11 +32,16 @@ p.dos{
 	text-align: center;
 }
 
-p.tres{
+.tres{
 	text-align: center;
 	margin-top: 5px;
 	font-size: 1.5em;
 	font-weight: bold;
+	list-style-type: none;
+}
+
+ul > li.salto{
+	margin-bottom: 3%;
 }
 
 h3{
