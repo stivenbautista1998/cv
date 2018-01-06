@@ -1,0 +1,147 @@
+body{ 
+  margin: 0px auto;
+  font-family: "Helvetica Neue";
+  background: url("../Image/fondo.jpg") no-repeat;
+  background-size: contain;
+  background-color: #edeeef;
+}
+
+div.contenido{
+  padding: 10%;
+  padding-top: 35%;
+}
+
+ul{
+  padding: 0;
+}
+
+.seccion-perfil__central{
+  text-align: center;
+  position: relative;
+  margin-bottom: 2%;
+  background-color: #FFF;
+  box-shadow: 0 0 .5em #8E8E8E;
+  border-radius: 4px;
+}
+
+.seccion-perfil__nombre{
+  font-family: "Helvetica Neue";
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.seccion-perfil__contendedor-img {
+  position: absolute;
+  width: 100%;
+  bottom: 78%;
+}
+
+.seccion-perfil__foto{
+  border: 6px solid rgba(127, 137, 128, 0.2);
+  border-radius: 60%;
+}
+
+.seccion-perfil__contenido{
+  padding: 4%;
+}
+
+.seccion-contenido__titulo{
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 300;
+  margin-left: 1%;
+}
+
+a.seccion-perfil__link{
+  text-decoration: none;
+  color: #000;
+}
+
+a.seccion-perfil__link:hover{
+  color: #2F953A;
+}
+
+.seccion-contenido{
+  font-size: 14px;
+  font-weight: medium;
+  line-height: 1.5;
+  margin-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+  width: 42%;
+  float: left;
+  background-color: #FFF;
+  border-top: 5px solid #4A90E2;
+  box-shadow: 0 0 .5em #8E8E8E;
+}
+
+ .seccion-contenido:nth-child(even) {
+  float: right;
+ }
+
+.margen{
+  margin-right: 3%;
+}
+
+.medio{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+span.palido{
+  color: #4B5751;
+  font-weight: bold;
+}
+
+.resaltado{
+  color: #4A90E2;
+  margin-bottom: 2%;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.sin-corchete{
+  list-style-type: none;
+}
+
+
+@media (max-width: 640px) {
+
+.seccion-contenido{
+  float: none;
+  width: inherit;
+ }
+
+ .seccion-perfil__foto{
+  border-radius: 60%;
+  width: 100px;
+  height: 100px;
+}
+
+.seccion-perfil__contendedor-img {
+  bottom: 83%;
+}
+
+ .margen {
+  margin-right: 0;
+ }
+
+ .seccion-contenido:nth-child(even) {
+  float: none;
+ }
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
